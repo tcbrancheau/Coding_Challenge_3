@@ -1,0 +1,130 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{CBE1D258-737B-46F9-B159-87A5DCB23DE5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Coding_Challenge_3</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vscode\launch.json" />
+    <None Include=".vscode\tasks.json" />
+    <None Include=".vs\Coding_Challenge_3\FileContentIndex\9fec4351-fa43-4564-aa48-ad13be2fd542.vsidx" />
+    <None Include=".vs\Coding_Challenge_3\FileContentIndex\c803deff-fc4b-4fc6-a095-5b0c5b059168.vsidx" />
+    <None Include=".vs\Coding_Challenge_3\FileContentIndex\read.lock" />
+    <None Include=".vs\Coding_Challenge_3\v17\.wsuo" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="Coding_Challenge_3.code-workspace" />
+    <None Include="PublixBrowser\obj\Debug\net6.0\PublixBrowser.AssemblyInfoInputs.cache" />
+    <None Include="PublixBrowser\obj\Debug\net6.0\PublixBrowser.assets.cache" />
+    <None Include="PublixBrowser\obj\Debug\net6.0\PublixBrowser.csproj.AssemblyReference.cache" />
+    <None Include="PublixBrowser\obj\Debug\net6.0\PublixBrowser.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="PublixBrowser\obj\project.assets.json" />
+    <None Include="PublixBrowser\obj\project.nuget.cache" />
+    <None Include="PublixBrowser\obj\PublixBrowser.csproj.nuget.dgspec.json" />
+    <None Include="PublixBrowser\obj\PublixBrowser.csproj.nuget.g.props" />
+    <None Include="PublixBrowser\obj\PublixBrowser.csproj.nuget.g.targets" />
+    <None Include="PublixBrowser\obj\Release\net6.0\PublixBrowser.AssemblyInfoInputs.cache" />
+    <None Include="PublixBrowser\obj\Release\net6.0\PublixBrowser.assets.cache" />
+    <None Include="PublixBrowser\obj\Release\net6.0\PublixBrowser.csproj.AssemblyReference.cache" />
+    <None Include="PublixBrowser\obj\Release\net6.0\PublixBrowser.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="PublixBrowser\PublixBrowser.csproj" />
+    <None Include="PublixBrowser\PublixShoppingList" />
+    <None Include="Tests\obj\Debug\net6.0\Tests.AssemblyInfoInputs.cache" />
+    <None Include="Tests\obj\Debug\net6.0\Tests.assets.cache" />
+    <None Include="Tests\obj\Debug\net6.0\Tests.csproj.AssemblyReference.cache" />
+    <None Include="Tests\obj\Debug\net6.0\Tests.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Tests\obj\project.assets.json" />
+    <None Include="Tests\obj\project.nuget.cache" />
+    <None Include="Tests\obj\Release\net6.0\Tests.AssemblyInfoInputs.cache" />
+    <None Include="Tests\obj\Release\net6.0\Tests.assets.cache" />
+    <None Include="Tests\obj\Release\net6.0\Tests.csproj.AssemblyReference.cache" />
+    <None Include="Tests\obj\Release\net6.0\Tests.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Tests\obj\Tests.csproj.nuget.dgspec.json" />
+    <None Include="Tests\obj\Tests.csproj.nuget.g.props" />
+    <None Include="Tests\obj\Tests.csproj.nuget.g.targets" />
+    <None Include="Tests\Tests.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="PublixBrowser\GlobalVars.cs" />
+    <Compile Include="PublixBrowser\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="PublixBrowser\obj\Debug\net6.0\PublixBrowser.AssemblyInfo.cs" />
+    <Compile Include="PublixBrowser\obj\Debug\net6.0\PublixBrowser.GlobalUsings.g.cs" />
+    <Compile Include="PublixBrowser\obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="PublixBrowser\obj\Release\net6.0\PublixBrowser.AssemblyInfo.cs" />
+    <Compile Include="PublixBrowser\obj\Release\net6.0\PublixBrowser.GlobalUsings.g.cs" />
+    <Compile Include="PublixBrowser\PublixBroswer.cs" />
+    <Compile Include="PublixBrowser\PublixLocators.cs" />
+    <Compile Include="PublixBrowser\PublixSearch.cs" />
+    <Compile Include="Tests\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="Tests\obj\Debug\net6.0\Tests.AssemblyInfo.cs" />
+    <Compile Include="Tests\obj\Debug\net6.0\Tests.GlobalUsings.g.cs" />
+    <Compile Include="Tests\obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="Tests\obj\Release\net6.0\Tests.AssemblyInfo.cs" />
+    <Compile Include="Tests\obj\Release\net6.0\Tests.GlobalUsings.g.cs" />
+    <Compile Include="Tests\TestAllBrandNameItems.cs" />
+    <Compile Include="Tests\TestData.cs" />
+    <Compile Include="Tests\TestPublixShoppingList.cs" />
+    <Compile Include="Tests\Usings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\Coding_Challenge_3\FileContentIndex\merges\" />
+    <Folder Include="PublixBrowser\bin\Debug\net6.0\" />
+    <Folder Include="PublixBrowser\bin\Release\net6.0\" />
+    <Folder Include="PublixBrowser\obj\Debug\net6.0\refint\" />
+    <Folder Include="PublixBrowser\obj\Debug\net6.0\ref\" />
+    <Folder Include="PublixBrowser\obj\Release\net6.0\refint\" />
+    <Folder Include="PublixBrowser\obj\Release\net6.0\ref\" />
+    <Folder Include="Tests\bin\Debug\net6.0\" />
+    <Folder Include="Tests\bin\Release\net6.0\" />
+    <Folder Include="Tests\obj\Debug\net6.0\refint\" />
+    <Folder Include="Tests\obj\Debug\net6.0\ref\" />
+    <Folder Include="Tests\obj\Release\net6.0\refint\" />
+    <Folder Include="Tests\obj\Release\net6.0\ref\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

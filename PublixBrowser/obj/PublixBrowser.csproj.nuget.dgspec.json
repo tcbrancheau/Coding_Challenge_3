@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Dev\\Coding_Challenge_3\\PublixBrowser\\PublixBrowser.csproj": {}
+  },
+  "projects": {
+    "E:\\Dev\\Coding_Challenge_3\\PublixBrowser\\PublixBrowser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Dev\\Coding_Challenge_3\\PublixBrowser\\PublixBrowser.csproj",
+        "projectName": "PublixBrowser",
+        "projectPath": "E:\\Dev\\Coding_Challenge_3\\PublixBrowser\\PublixBrowser.csproj",
+        "packagesPath": "C:\\Users\\Dr. Warne\\.nuget\\packages\\",
+        "outputPath": "E:\\Dev\\Coding_Challenge_3\\PublixBrowser\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dr. Warne\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "System.Json": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
