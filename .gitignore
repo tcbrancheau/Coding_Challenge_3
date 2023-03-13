@@ -1,1 +1,7 @@
 .vs/*
+bin/*
+Tests/bin/*
+PublixBrowser/bin/*
+obj/*
+Tests/obj/*
+PublixBrowser/obj/*
